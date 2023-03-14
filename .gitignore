@@ -1,6 +1,6 @@
 # Ignore GoLand (IntelliJ) files.
 .idea/
-
+imagerefs
 ko
 
 .DS_Store
