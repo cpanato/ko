@@ -65,7 +65,7 @@ func TestDaemonTags(t *testing.T) {
 		t.Errorf("Publish() = %v, wanted prefix %v", got, want)
 	}
 
-	expected := []string{"ko.local/98b8c7facdad74510a7cae0cd368eb4e:v2.0.0", "ko.local/98b8c7facdad74510a7cae0cd368eb4e:v1.2.3", "ko.local/98b8c7facdad74510a7cae0cd368eb4e:production"}
+	expected := []string{"ko.local/a9ded388ffdf58b5eb23377750a9cd6d:v2.0.0", "ko.local/a9ded388ffdf58b5eb23377750a9cd6d:v1.2.3", "ko.local/a9ded388ffdf58b5eb23377750a9cd6d:production"}
 
 	for i, v := range expected {
 		if client.Tags[i] != v {
